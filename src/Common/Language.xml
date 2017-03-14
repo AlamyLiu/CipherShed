@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <CipherShed>
   <localization prog-version="0.7.4.0">
     <!-- Languages -->
@@ -1310,7 +1310,7 @@
     <string lang="en" key="GB_PER_SEC">GB/s</string>
     <string lang="en" key="TB_PER_SEC">TB/s</string>
     <string lang="en" key="PB_PER_SEC">PB/s</string>
-    <string lang="en" key="TRIPLE_DOT_GLYPH_ELLIPSIS">…</string>
+    <string lang="en" key="TRIPLE_DOT_GLYPH_ELLIPSIS">...</string>
   </localization>
   <!-- XML Schema -->
   <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
