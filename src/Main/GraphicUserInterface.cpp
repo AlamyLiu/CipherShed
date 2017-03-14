@@ -1260,12 +1260,12 @@ namespace CipherShed
 			switch (backupFile.Length())
 			{
 			case TC_VOLUME_HEADER_GROUP_SIZE:
-				headerSize = TC_VOLUME_HEADER_SIZE;
+				(void)(headerSize = TC_VOLUME_HEADER_SIZE); /* UNUSED */
 				legacyBackup = false;
 				break;
 
 			case TC_VOLUME_HEADER_SIZE_LEGACY * 2:
-				headerSize = TC_VOLUME_HEADER_SIZE_LEGACY;
+				(void)(headerSize = TC_VOLUME_HEADER_SIZE_LEGACY); /* UNUSED */
 				legacyBackup = true;
 				break;
 
